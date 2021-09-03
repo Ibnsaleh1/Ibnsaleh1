@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+th, tr{
+    border: 1px solid #999;
+    padding: 0.5rem;
+    color: #999;
+}
+h2{
+    text-align: center;
+}
+.ER{
+    background-color: rgb(12, 6, 6);
+    font-size: 24px;
+    width: min-content;
+}
+
+</style>
+</head>
+<body>
+    <img src="tr.jpg" height="400">
+    <h2>Contact Us</h2>
+    
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d981.4197795858162!2d9.82789477515536!3d10.287417568928117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1054d71144a4d5f9%3A0x565b6cd25e135fad!2sBauchi!5e0!3m2!1sen!2sng!4v1630529873587!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+      <p>
+          <div class="foo">
+          <table border="2px">
+            <caption>working hours</caption>
+              <tr>
+                  <th>Day</th>
+                  <th>Time</th>
+              </tr> 
+              <tr>
+                  <td>Monday</td>
+                  <td>9am-4pm</td>
+              </tr> 
+              <tr>
+                  <td>Tuesday</td>
+                  <td>9am-4pm</td>
+                  
+              </tr>
+              <tr>
+                  <td>Wednesday</td>
+                  <td>9am-4pm</td>
+              </tr>               
+              <tr>
+                  <td>Thursday</td>
+                  <td>9am-4pm</td>
+                
+              </tr>
+              <tr>
+                  <td>Friday</td>
+                  <td>9am-12pm</td>
+              </tr> 
+          </table>
+          </div>
+      </p>
+<div class="ER">
+      <p>  <a href="Landing page.html">home</a></p>
+  </div>
+</body>
+</html>
