@@ -1,3 +1,4 @@
+![GAYAWATECH](https://user-images.githubusercontent.com/88117495/131933536-0c81dc1b-7783-4ec1-b8f9-c17c4e605e9a.jpg)
 ### Hi there 👋
 
 <!--
